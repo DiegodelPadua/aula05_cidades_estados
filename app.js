@@ -218,6 +218,6 @@ app.get('/v1/senai/help', function(request, response){
 //})
 
 //Serve para inicializar a API para receber requisições
-app.listen(8080, function(){
-    console.log('API funcionando e aguardando novas requisições...')
-})
+//app.listen(8080, function(){
+    //console.log('API funcionando e aguardando novas requisições...')
+//})
