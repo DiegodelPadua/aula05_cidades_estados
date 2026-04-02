@@ -44,7 +44,7 @@ app.use(cors(corsOptions))
 //Request  -> São chegadas de dados na API
 
 //import do arquivo de funções
-const estadosCidades = require('./modulo/funcao.js')
+const estadosCidades = require('../modulo/funcao.js')
 
 //Criando EndPoints para a API
 
