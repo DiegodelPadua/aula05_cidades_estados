@@ -20,13 +20,13 @@ const cors = require('cors')
 //Criando um objeto para manipular o express
 const app = express()
 
-const PORT = process.env.PORT || 3000
+const PORT = process.env.PORT || 8080
 
 app.get('/', function(req, res){
     res.send('API funcionando!')
 })
 
-app.listen(PORT, '0.0.0.0', function(){
+app.listen(PORT, function(){
     console.log(`Servidor rodando na porta ${PORT}`)
 })
 
