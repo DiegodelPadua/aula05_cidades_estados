@@ -49,6 +49,10 @@ const estadosCidades = require('../modulo/funcao.js')
 //Criando EndPoints para a API
 
 
+
+//Exemplo de como "passar uma variável" /u1/senai/dados/estsdo/sp (a variável SP [variável via parâmetro])
+//Exemplo de como "passar uma variável" /u1/senai/dados/estsdo/? FILTRO = SP & Região = sul (as variáveis [via query] usando o "?")
+
 //Retorna dados do estados filtrando pelo UF
 app.get('/v1/senai/dados/estado/:uf', function(request,response){
 
